@@ -84,7 +84,8 @@ class FakeData(object):
                                like_num=like_num,
                                post_time=post_time,
                                uuid=post_uuid,
-                               view_num=view_num
+                               view_num=view_num,
+                               img_url="https://s1.ax1x.com/2020/03/24/8bg3oF.png"
                                )
 
             db.session.add(new_post)
