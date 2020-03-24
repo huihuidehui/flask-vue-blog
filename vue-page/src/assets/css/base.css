@@ -1,0 +1,37 @@
+@import "./normalize.css";
+a {
+    color: #111;
+    transition: all 0.3s;
+}
+
+a:hover {
+    /* color: #70c02c; */
+    color: #0047ab;
+}
+
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #34495e
+}
+p{
+    color:#34495e
+}
+a{
+    color:#34495e
+}
+span{
+    color:#34495e
+}
+/*h3 {*/
+
+/*    font-size: 0.1rem*/
+
+/*}*/

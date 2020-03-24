@@ -1,0 +1,328 @@
+/* Sspai Web Theme A theme to [sspai](ssp.ai) default theme. Developed by Codegass(wchweichenhao@gmial.com) & Yves(yves@sspai.com) Download Cuto on the App Store and Google Play! */
+
+.markdown-body body {
+	font-size: 1rem;
+	color: #333;
+	background: #fff;
+	font-family: Helvetica, Arial, "PingFang SC", "Microsoft YaHei", "WenQuanYi Micro Hei", "tohoma,sans-serif";
+	margin: 0;
+	padding: 10%;
+}
+
+
+.markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+	line-height: 1.5em;
+	margin-top: 2.2em;
+	margin-bottom: 4px;
+	/* padding-bottom:0.8rem; */
+	/* border-bottom: 1px solid #ddd; */
+}
+.markdown-body h1 {
+	font-size: 2.2em;
+	font-weight: 700;
+	line-height: 1.1;
+	padding-top: 16px;
+	margin-bottom: 4px;
+}
+
+.markdown-body h2 {
+	font-size: 1.4em;
+	margin: 40px 10px 20px 0px;
+	padding-left: 9px;
+	border-left: 6px solid #ff7e79;
+	font-weight: 700;
+	line-height: 1.4;
+	/* margin-bottom:0.5rem; */
+	
+	/* line-height: auto; */
+
+	/* border-left: 6px solid #ff7e79; */
+	padding-bottom: 0.2rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.markdown-body h3 {
+	font-weight: 700;
+	font-size: 1.2em;
+	line-height: 1.4;
+	margin: 10px 0 5px;
+	padding-top: 10px;
+	/* border-left: 6px solid #ff7e79; */
+}
+
+.markdown-body h4 {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	line-height: 1.4;
+	margin: 10px 0 5px;
+	padding-top: 10px
+}
+
+
+.markdown-body h5, .markdown-body h6 {
+	font-size: .9em;
+}
+
+.markdown-body h5 {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.markdown-body h6 {
+	font-weight: normal;
+	color: #AAA;
+}
+
+.markdown-body img {
+	background-color: #fff;
+	box-sizing: content-box;
+	max-width: 100%;
+}
+
+.markdown-body img[align=right] {
+	padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+	padding-right: 20px;
+}
+
+.markdown-body dl, .markdown-body ol, .markdown-body ul {
+	margin-top: 12px;
+	margin-bottom: 20px;
+	padding-left: 5%;
+	line-height: 1.8;
+}
+
+.markdown-body p {
+	margin: 0 0 20px;
+	padding: 0;
+	line-height: 1.8;
+	word-spacing: 0.5rem;
+	text-indent: 1.6rem;
+	font-size: 0.95rem
+}
+
+.markdown-body a {
+	color: #f22f27;
+	text-decoration: none;
+}
+
+.markdown-body a:hover {
+	color: #f55852;
+	text-decoration: underline;
+}
+
+.markdown-body a:focus {
+	outline-offset: -2px;
+}
+
+.markdown-body blockquote {
+	font-size: 1em;
+	font-style: normal;
+	padding: 30px 38px;
+	margin: 0 0 15px;
+	position: relative;
+	line-height: 1.8;
+	text-indent: 0;
+	border: none;
+	color: #888;
+}
+
+.markdown-body blockquote:before {
+	content: "“";
+	left: 12px;
+	top: 0;
+	color: #E0E0E0;
+	font-size: 4em;
+	font-family: Arial, serif;
+	line-height: 1em;
+	font-weight: 700;
+	position: absolute;
+}
+
+.markdown-body blockquote:after {
+	content: "”";
+	right: 12px;
+	bottom: -26px;
+	color: #E0E0E0;
+	font-size: 4em;
+	font-family: Arial, serif;
+	line-height: 1em;
+	font-weight: 700;
+	position: absolute;
+	bottom: -31px;
+}
+
+.markdown-body .strong, dfn {
+	font-weight: 700;
+}
+
+.markdown-body em, dfn {
+	font-style: italic;
+	font-weight: 400;
+}
+
+.markdown-body .del {
+	text-decoration: line-through;
+}
+
+/*code {font-size:90%;}*/
+
+/*pre {text-align:left; overflow-x: scroll; color: #257fa0; background: #f6f6f6; padding: 10pt 15pt; border-radius: 3px; border: solid 1px #e2e2e2;}*/
+
+.markdown-body pre {
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 1.42857;
+	word-break: break-all;
+	word-wrap: break-word;
+	border-radius: 4px;
+	white-space: pre-wrap;
+	display: block;
+	background: #f8f8f8;
+	padding: 10px 20px;
+	border: none;
+	margin-bottom: 25px;
+	color: #666;
+	font-family: Courier, sans-serif;
+}
+
+.markdown-body code {
+	color: #c7254e;
+	/* background-color: #f9f2f4; */
+	/* border-radius: 4px; */
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+	/* padding: 2px 4px; */
+	/* font-size: 90%; */
+}
+
+.markdown-body p>code {
+	color: #c7264e;
+	/* background-color: #f9f2f4; */
+	font-size: .95em;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.markdown-body figure {
+	margin: 1em 0;
+}
+
+.markdown-body figcaption {
+	font-size: 0.75em;
+	padding: 0.5em 2em;
+	margin-bottom: 2em;
+}
+
+.markdown-body figure img {
+	margin-bottom: 0px;
+}
+
+.markdown-body hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #eee;
+}
+
+.markdown-body ol p, ul p {
+	margin-bottom: 0px;
+}
+
+.markdown-body li {
+	margin-bottom: 0.75em;
+	margin-top: 0.75em;
+}
+
+.markdown-body ol#footnotes {
+	font-size: 0.95em;
+	padding-top: 1em;
+	margin-top: 1em;
+	margin-left: 0;
+	border-top: 1px solid #eaeaea;
+	counter-reset: footer-counter;
+	list-style: none;
+	color: #555;
+	padding-left: 5%;
+	margin: 20px 0;
+}
+
+.markdown-body ol#footnotes li {
+	margin-bottom: 10px;
+	margin-left: 16px;
+	font-weight: 400;
+	line-height: 2;
+	list-style-type: none;
+}
+
+.markdown-body ol#footnotes li:before {
+	content: counter(footer-counter) ". ";
+	counter-increment: footer-counter;
+	font-weight: 800;
+	font-size: .95em;
+}
+
+@keyframes highfade {
+	0% {
+		background-color: none;
+	}
+	20% {
+		background-color: yellow;
+	}
+	100% {
+		background-color: none;
+	}
+}
+
+@-webkit-keyframes highfade {
+	0% {
+		background-color: none;
+	}
+	20% {
+		background-color: yellow;
+	}
+	100% {
+		background-color: none;
+	}
+}
+
+.markdown-body .a:target, ol#footnotes li:target, sup a:target {
+	animation-name: highfade;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-name: highfade;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in-out;
+}
+
+.markdown-body .a:target {
+	border: 0;
+	outline: 0;
+}
+
+/* animation-iteration-count: 1; */
+
+/* -webkit-animation-timing-function: ease-in-out; */
+
+/* } */
+
+.markdown-body .a:target {
+	border: 0;
+	outline: 0;
+}
+
+/* .markdown-body .tion-iteration-count: 1; */
+
+/* -webkit-animation-timing-function: ease-in-out; */
+
+/* } */
+
+.markdown-body .a:target {
+	border: 0;
+	outline: 0;
+}

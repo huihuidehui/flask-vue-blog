@@ -1,0 +1,8 @@
+/venv
+.idea
+.DS_Store
+.vscode
+*.db
+*.pyc
+*/dbdir
+.flaskenv
