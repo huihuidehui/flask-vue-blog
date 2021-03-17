@@ -5,7 +5,7 @@ from sqlalchemy.ext.hybrid import hybrid_property
 
 from . import db
 from app.extensions import bcrypt, auth_token
-from itsdangerous import TimedJSONWebSignatureSerializer as Serializer, SignatureExpired, BadSignature
+from itsdangerous import TimedJSONWebSignatureSerializer as Serializer,SignatureExpired, BadSignature
 from flask import current_app
 from app.extensions import auth_basic
 from flask import g
@@ -52,7 +52,7 @@ class Article(db.Model):
     # 文章图片
     img_url = db.Column(db.String(80), default="")
     # 查询时按照post_time进行排序
-    __mapper_args__ = {"order_by": post_time.desc()}
+    #__mapper_args__ = {"order_by": post_time.desc()}
 
     @classmethod
     def generate_uuid(cls, title):
@@ -103,7 +103,7 @@ class User(db.Model):
                 g.user = user
                 return True
             else:
-                False
+                return False
         else:
             return False
 
